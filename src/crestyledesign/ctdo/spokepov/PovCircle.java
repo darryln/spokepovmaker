@@ -12,12 +12,12 @@ import java.awt.image.BufferedImage;
 
 public class PovCircle extends JPanel {
 	private static final long serialVersionUID = -5560303330892137973L;
-	private int ledCount = 16;
+	private int ledCount = 15;
 	private int padding = 20;
-	private int angularSteps = 40;
+	private int angularSteps = 32;
 	private int angularStepsMax = 80;
 	private int middleRadiusMax = 25;
-	private int middleRadius = 20;
+	private int middleRadius = 10;
 	private DotDataEntry[][] myData = null;
 	private Color drawColor = Color.white;
 	private Image imgBackground;
